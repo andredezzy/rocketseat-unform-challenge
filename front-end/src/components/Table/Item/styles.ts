@@ -21,11 +21,21 @@ export const Container = styled.tr`
         }
 
         &:last-child {
-            padding-right: 500px;
             border-right-style: solid;
             border-right-color: transparent;
             border-bottom-right-radius: 10px;
             border-top-right-radius: 10px;
+        }
+    }
+
+    #delete-icon {
+        img {
+            float: right;
+            transition: transform 0.1s ease-in-out;
+
+            &:hover {
+                transform: scale(0.9);
+            }
         }
     }
 `;
