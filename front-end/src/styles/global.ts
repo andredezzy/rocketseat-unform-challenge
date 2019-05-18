@@ -3,6 +3,10 @@ import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
+    html, body {
+        height: 100%;
+    }
+
     body {
         margin: 0;
         padding: 0;
@@ -12,5 +16,9 @@ export default createGlobalStyle`
 
     *:focus {
         outline: 0;
+    }
+
+    #root {
+        height: 100%;
     }
 `;

@@ -25,6 +25,13 @@ const reducer: Reducer<UsersState> = (state = INITIAL_STATE, action) => {
                 error: true,
                 data: []
             };
+        case UsersTypes.REMOVE_ITEM:
+            return {
+                ...state,
+                loading: false,
+                error: false,
+                data: state.data.filter(item => item._id !== action.payload._id)
+            };
         default:
             return state;
     }

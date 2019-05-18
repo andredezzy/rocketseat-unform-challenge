@@ -7,11 +7,13 @@ import { ApplicationState } from "../../store";
 
 import * as UsersActions from "../../store/ducks/users/actions";
 
-import { Container } from "./styles";
+import { Container, Bottom } from "./styles";
 
 import Table from "../Table";
 import Separator from "../Separator";
 import TableItem from "../Table/Item";
+
+import Button from "../Button";
 
 interface StateProps {
     users: User[];
@@ -42,31 +44,40 @@ class List extends Component<Props> {
                             <Separator
                                 width={3}
                                 height={19}
-                                margin={{ top: 4, right: 7, left: 100 }}
+                                margin={{ top: 4, right: 7, left: 380 }}
                             />
                             <th>Contato</th>
                         </tr>
                     </thead>
                 </Table>
 
-                <Separator
-                    id="horizontal-separator"
-                    height={3}
-                    width={975}
-                    margin={{ top: -8 }}
-                />
+                <Separator height={3} width={989} margin={{ top: -8 }} />
 
                 <Table id="body">
                     <tbody>
                         {users.map(user => (
-                            <TableItem
-                                key={user._id}
-                                name={user.name}
-                                contact={user.contact}
-                            />
+                            <TableItem key={user._id} user={user} />
                         ))}
                     </tbody>
                 </Table>
+
+                <Separator
+                    id="footer-separator"
+                    height={3}
+                    width={989}
+                    margin={{ top: 10, bottom: 15 }}
+                />
+
+                <Bottom>
+                    <span>{users.length} usuário(s) cadastrados</span>
+                    <Button
+                        right
+                        text="Cadastrar novo usuário"
+                        href="#register"
+                        color="#95C0FF"
+                        hoverColor="#7EB2FF"
+                    />
+                </Bottom>
             </Container>
         );
     }

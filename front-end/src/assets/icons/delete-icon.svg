@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="20" height="20" transform="translate(1104 286)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Delete_Icon" data-name="Delete Icon" transform="translate(-1104 -286)" clip-path="url(#clip-path)">
+    <g id="delete-icon" transform="translate(1104 286)">
+      <path id="Caminho_2" data-name="Caminho 2" d="M22.5,12.5a10,10,0,1,1-10-10A10,10,0,0,1,22.5,12.5Z" transform="translate(-2.5 -2.5)" fill="#f44336"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M16.767,9.7l1.414,1.414-7.07,7.07L9.7,16.768Z" transform="translate(-3.94 -3.94)" fill="#fff"/>
+      <path id="Caminho_4" data-name="Caminho 4" d="M18.182,16.767l-1.414,1.414L9.7,11.112,11.112,9.7Z" transform="translate(-3.94 -3.94)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

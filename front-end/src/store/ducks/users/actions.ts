@@ -7,3 +7,6 @@ export const loadSuccess = (data: User[]) =>
     action(UsersTypes.LOAD_SUCCESS, { data });
 
 export const loadFailure = () => action(UsersTypes.LOAD_FAILURE);
+
+export const removeItem = (_id: string) =>
+    action(UsersTypes.REMOVE_ITEM, { _id });

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:3333/api/"
+    baseURL: "https://rocketseat-unform-challeng-api.herokuapp.com/api/"
 });
 
 export default api;
