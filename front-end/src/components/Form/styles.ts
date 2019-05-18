@@ -7,6 +7,10 @@ export const Container = styled.div`
     color: #707070;
     padding: 40px 50px;
 
+    @media screen and (max-height: 900px) {
+        padding: 25px 50px;
+    }
+
     form {
         label {
             text-transform: uppercase;
@@ -43,6 +47,10 @@ export const Bottom = styled.div`
     justify-content: space-between;
 
     margin-top: 50px;
+
+    @media screen and (max-height: 900px) {
+        margin-top: 25px;
+    }
 
     button {
         display: flex;
