@@ -1,13 +1,13 @@
 # Rocketseat Unform Challenge
 
-:rocket: Rocketseat: https://rocketseat.com.br - [GitHub](https://github.com/Rocketseat/)
-:birthday: It's a project created to the challenge of Rocketseat Launch (their birthday :clap:).
-:mag: You can see this project running at: http://andredezzy.me/rocketseat-unform-challenge
+:rocket: Rocketseat: https://rocketseat.com.br - [GitHub](https://github.com/Rocketseat/)<br>
+:birthday: It's a project created to the challenge of Rocketseat Launch (their birthday :clap:).<br>
+:mag: You can see this project running at: http://andredezzy.me/rocketseat-unform-challenge<br>
 <br>
 
 ## API Documentation:
 
-:electric_plug: It's running at: https://rocketseat-unform-challeng-api.herokuapp.com/
+:electric_plug: It's running at: https://rocketseat-unform-challeng-api.herokuapp.com/<br>
 :eyes: Endpoint prefix: /api
 
 - /user
