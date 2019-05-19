@@ -27,7 +27,7 @@ type Props = IProps & DispatchProps;
 
 class Item extends Component<Props> {
     handleRemoveItem = (_id: string) => {
-        api.delete("/user/" + _id);
+        // api.delete("/user/" + _id);
 
         const { removeItem } = this.props;
 
