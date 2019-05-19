@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/rocketseat-unform-challenge/static/js/main.1ded54b0.chunk.js",
+    "main.js.map": "/rocketseat-unform-challenge/static/js/main.1ded54b0.chunk.js.map",
+    "runtime~main.js": "/rocketseat-unform-challenge/static/js/runtime~main.6992605a.js",
+    "runtime~main.js.map": "/rocketseat-unform-challenge/static/js/runtime~main.6992605a.js.map",
+    "static/js/2.e4f527b7.chunk.js": "/rocketseat-unform-challenge/static/js/2.e4f527b7.chunk.js",
+    "static/js/2.e4f527b7.chunk.js.map": "/rocketseat-unform-challenge/static/js/2.e4f527b7.chunk.js.map",
+    "index.html": "/rocketseat-unform-challenge/index.html",
+    "precache-manifest.c5b4dddc159b5fefaf7cd4cdd82850bb.js": "/rocketseat-unform-challenge/precache-manifest.c5b4dddc159b5fefaf7cd4cdd82850bb.js",
+    "service-worker.js": "/rocketseat-unform-challenge/service-worker.js",
+    "static/media/delete-icon.svg": "/rocketseat-unform-challenge/static/media/delete-icon.a493208b.svg",
+    "static/media/github-icon.svg": "/rocketseat-unform-challenge/static/media/github-icon.ce6df667.svg",
+    "static/media/left-arrow-icon.svg": "/rocketseat-unform-challenge/static/media/left-arrow-icon.bc056d33.svg",
+    "static/media/right-arrow-icon.svg": "/rocketseat-unform-challenge/static/media/right-arrow-icon.b33f38db.svg",
+    "static/media/rocketseat-launch-logo.png": "/rocketseat-unform-challenge/static/media/rocketseat-launch-logo.2ab97422.png",
+    "static/media/unform-logo.png": "/rocketseat-unform-challenge/static/media/unform-logo.a1805e04.png"
+  }
+}
