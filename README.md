@@ -2,7 +2,7 @@
 
 :rocket: Rocketseat: https://rocketseat.com.br - [GitHub](https://github.com/Rocketseat/)<br>
 :birthday: It's a project created to the challenge of Rocketseat Launch (their birthday :clap:).<br>
-:mag: You can see this project running at: http://andredezzy.me/rocketseat-unform-challenge<br>
+:mag: You can see this project running at: https://andredezzy.github.io/rocketseat-unform-challenge<br>
 <br>
 
 ## API Documentation:
