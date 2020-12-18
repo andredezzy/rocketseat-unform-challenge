@@ -1860,13 +1860,13 @@ mongodb@^3.1.8:
     safe-buffer "^5.1.2"
 
 mquery@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/mquery/-/mquery-3.2.0.tgz#e276472abd5109686a15eb2a8e0761db813c81cc"
-  integrity sha512-qPJcdK/yqcbQiKoemAt62Y0BAc0fTEKo1IThodBD+O5meQRJT/2HSe5QpBNwaa4CjskoGrYWsEyjkqgiE0qjhg==
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/mquery/-/mquery-3.2.3.tgz#bcf54fdfe3baf57b6a22f9b62b1ad5fa18ffe96a"
+  integrity sha512-cIfbP4TyMYX+SkaQ2MntD+F2XbqaBHUYWk3j+kqdDztPWok3tgyssOZxMHMtzbV1w9DaSlvEea0Iocuro41A4g==
   dependencies:
     bluebird "3.5.1"
     debug "3.1.0"
-    regexp-clone "0.0.1"
+    regexp-clone "^1.0.0"
     safe-buffer "5.1.2"
     sliced "1.0.1"
 
@@ -2431,10 +2431,10 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexp-clone@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-0.0.1.tgz#a7c2e09891fdbf38fbb10d376fb73003e68ac589"
-  integrity sha1-p8LgmJH9vzj7sQ03b7cwA+aKxYk=
+regexp-clone@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-1.0.0.tgz#222db967623277056260b992626354a04ce9bf63"
+  integrity sha512-TuAasHQNamyyJ2hb97IuBEif4qBHGjPHBS64sZwytpLEqtBQ1gPJTnOaQ6qmpET16cK14kkjbazl6+p0RRv0yw==
 
 repeat-element@^1.1.2:
   version "1.1.3"
